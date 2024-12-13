@@ -1,0 +1,21 @@
+.gird {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    width: 650px; /* Ensures enough space for three boxes with gaps */
+    gap: 10px; /* Adds space between boxes */
+    justify-content: center; /* Centers the boxes in the grid */
+}
+
+.box {
+    width: 200px; /* Box width */
+    height: 200px; /* Box height */
+    border: 1px solid black;
+    box-sizing: border-box; /* Includes border in the total size */
+}
+
+.mole {
+    background-image: url('mole.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
